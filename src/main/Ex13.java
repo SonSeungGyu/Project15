@@ -23,18 +23,18 @@ public class Ex13 {
 //		try {
 //			file.createNewFile();
 //			
-//		} catch (IOException e) {
+
 //			e.printStackTrace();
 //		}
 		
 		//파일 속성 보기
-//		System.out.println(file.isFile()); //파일인지?
-//		System.out.println(file.isDirectory()); //폴더인지?
-//		System.out.println(file.getName()); //파일이름
-//		System.out.println(file.getAbsolutePath()); //파일경로
-//		System.out.println(file.getPath());//파일경로
-//		System.out.println(file.canRead());//읽을수 있는지?
-//		System.out.println(file.canWrite());//쓸 수 있는지?
+		System.out.println(dir.isFile()); //파일인지?
+		System.out.println(dir.isDirectory()); //폴더인지?
+		System.out.println(dir.getName()); //파일이름
+		System.out.println(dir.getAbsolutePath()); //파일경로
+		System.out.println(dir.getPath());//파일경로
+		System.out.println(dir.canRead());//읽을수 있는지?
+		System.out.println(dir.canWrite());//쓸 수 있는지?
 //		
 //		//파일 삭제
 //		file.delete();
